@@ -1,8 +1,7 @@
 <template>
-    <v-app-bar class="navbar" app dark flat color='black'>
+    <v-app-bar class="px-md-16 px-xs-4" app dark flat color='black'>
         <v-toolbar-title><span @click="openOnClick">WebToon</span></v-toolbar-title>
-        <v-spacer></v-spacer>
-        <v-card class="navMenu">
+        <div class="d-flex align-center">
             <div v-if="isSearch">
                 <v-text-field label="Search" hide-details append-icon="mdi-close" @click:append="toggleSearch"
                     style="width: 300px;"></v-text-field>
@@ -22,7 +21,7 @@
             <v-btn icon @click="toggleSearch">
                 <v-icon>mdi-magnify</v-icon>
             </v-btn>
-        </v-card>
+        </div>
 
     </v-app-bar>
 </template>
@@ -73,15 +72,4 @@ export default defineComponent({
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.9);
 }
 
-/* Navbar Menu */
-.navMenu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 16px;
-    margin: 0 16px;
-    background-color: #1f1f1f;
-    border-radius: 8px;
-    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.9);
-}
 </style>
