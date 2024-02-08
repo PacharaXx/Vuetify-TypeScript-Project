@@ -34,7 +34,8 @@ const popularItems = [
   {
     title: 'True Beauty',
     imgUrl: 'https://m.media-amazon.com/images/I/81jm48GH5KL._AC_UF1000,1000_QL80_.jpg',
-    redirectUrl: 'https://www.webtoons.com/en/romance/true-beauty/list?title_no=1436'
+    redirectUrl: '/toon/1',
+    isHot: true
   },
   {
     title: 'Nano Machine',
