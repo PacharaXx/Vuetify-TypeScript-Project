@@ -1,0 +1,52 @@
+[
+  {
+    "id": 0,
+    "title": "unOrdinary",
+    "author": "uruchan",
+    "genre": ["Action", "Drama", "School Life"],
+    "imgUrl": "https://m.media-amazon.com/images/I/81RFamg2MiL._AC_UF1000,1000_QL80_.jpg",
+    "isHot" : true,
+    "rating": 4.5,
+    "epImg": "https://otakukart.com/wp-content/uploads/2021/12/unordinary1.jpg"
+  },
+  {
+    "id": 1,
+    "title": "Lore Olympus",
+    "author": "Rachel Smythe",
+    "genre": ["Romance", "Drama", "Fantasy"],
+    "imgUrl": "https://res.heraldm.com/content/image/2021/12/07/20211207000601_0.jpg",
+    "isHot" : true,
+    "rating": 4.5,
+    "epImg": "https://hips.hearstapps.com/hmg-prod/images/lo-romancticpairing-02-652a0252d29e6.jpg?crop=1.00xw:0.980xh;0,0.00664xh&resize=980:*"
+  },
+  {
+    "id": 2,
+    "title": "Let' s Play",
+    "author": " Mongie",
+    "genre": ["Romance", "Drama", "Comedy"],
+    "imgUrl": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781952126109/lets-play-volume-2-9781952126109_lg.jpg",
+    "isHot" : true,
+    "rating": 4.5,
+    "epImg": "https://assetsio.reedpopcdn.com/Everdate.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp"
+  },
+  {
+    "id": 3,
+    "title": "True Beauty",
+    "author": "Yaongyi",
+    "genre": ["Romance", "Drama", "School Life", "Slice of Life", "Webtoons"],
+    "imgUrl": "https://m.media-amazon.com/images/I/81jm48GH5KL._AC_UF1000,1000_QL80_.jpg",
+    "isHot" : true,
+    "rating": 4.5,
+    "epImg": "https://shop.webtoon.com/cdn/shop/files/231026_BigBanner_TrueBeauty_65433cb8-1502-4178-9073-98d870b9be1c_1600x.png?v=1700132736"
+  },
+  {
+    "id": 4,
+    "title": "Nano Machine",
+    "author": "Han joon-sung",
+    "genre": ["Action", "Adventure", "Fantasy", "Webtoons"],
+    "imgUrl": "https://p16-va.lemon8cdn.com/tos-alisg-v-a3e477-sg/ca92341a3f4f49d88aacbc9a7f381e00~tplv-tej9nj120t-origin.webp",
+    "isHot" : true,
+    "rating": 4.5,
+    "epImg": "https://kaishiuniverse.files.wordpress.com/2022/02/whatsapp-image-2022-02-09-at-9.52.17-pm.jpeg?w=736"
+  }
+]

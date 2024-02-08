@@ -28,4 +28,10 @@ router.addRoute({
   component: () => import('@/pages/toon/_id.vue'),
 })
 
+router.addRoute({
+  path: '/toon/:id/:slug',
+  name: 'ReadPage',
+  component: () => import('@/pages/toon/readpage.vue'),
+})
+
 export default router

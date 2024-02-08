@@ -18,10 +18,10 @@
                             width="32" height="32"
                             v-if="item.isHot"
                             src="https://img.icons8.com/external-vitaliy-gorbachev-flat-vitaly-gorbachev/58/external-fire-blogger-vitaliy-gorbachev-flat-vitaly-gorbachev.png"
-                            alt="external-fire-blogger-vitaliy-gorbachev-flat-vitaly-gorbachev" />
+                            alt="Fire!" />
                         <!-- <v-icon color="red" style="position: absolute; top: 0; right: 0;">mdi-fire</v-icon> -->
                         <img :src="item.imgUrl" height="100%" width="auto" :alt="item.title" class="img-Child"
-                            @click="navigateTo(item.redirectUrl)">
+                            @click="navigateTo('/toon/'+item.id)">
                         <v-toolbar-title>{{ item.title }}</v-toolbar-title>
                     </v-card>
 
